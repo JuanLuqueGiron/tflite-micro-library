@@ -18,4 +18,11 @@ This results in the creation of this folder, which we can find with:
 xdg-open /tmp/tflm-tree
 ```
 
+After that, we should replace on these files, with other versions that are compatible with out target: 
+
+ * [debug\_log.cc](https://github.com/JuanLuqueGiron/tflite-micro-library/tree/master/tensorflow/lite/micro/debug_log.cc)
+ * [micro\_time.cc](https://github.com/JuanLuqueGiron/tflite-micro-library/tree/master/tensorflow/lite/micro/micro_time.cc)
+ * [system\_setup.cc](https://github.com/JuanLuqueGiron/tflite-micro-library/tree/master/tensorflow/lite/micro/system_setup.cc)
+
+The files I used in previous repositories are identic to these files. We might need to change them in the future. 
 
